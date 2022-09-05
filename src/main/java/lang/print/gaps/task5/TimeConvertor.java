@@ -5,6 +5,6 @@ import java.util.logging.Logger;
 public class TimeConvertor {
     public void convert(float minutes) {
         float convertToSec = minutes * 60;
-        System.err.println(convertToSec);
+        System.out.println(convertToSec);
     }
 }
